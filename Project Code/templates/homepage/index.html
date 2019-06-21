@@ -2,12 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+     <link rel="stylesheet" href="homepage.css">
     <title>Home</title>
 </head>
 <body>
-    <h2>Welcome To Unravel Bangladesh</h2>
-    <p>Find Your Desired Solitude</p>
-    <p>Work in Progress</p>
-    <p>A land of Aesthetics</p>
+<audio autoplay>
+  <source src="audio.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<video autoplay muted loop id="myVideo">
+  <source src="videoplayback.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
 </body>
 </html>
