@@ -92,3 +92,32 @@ img:last-of-type {
     color: #fff;
     text-shadow: 0 2px 2px #000;
 }
+
+
+
+#title {
+    z-index:2;
+}
+
+#title h1 {
+    transform: translateZ(.25px) scale(.75);
+    transform-origin: 50% 100%;
+
+}
+
+#slide1:before {
+
+    transform: translateZ(-1px) scale(2);
+}
+
+#slide2 {
+    z-index:2;
+}
+
+#slide3:before {
+    transform: translateZ(-1px) scale(2);
+}
+
+#slide4 {
+    background: #222;
+}
