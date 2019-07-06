@@ -1,3 +1,7 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def sylhet(request):
+    return render(request,'tour/Sylhet.html')
+
+

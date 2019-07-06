@@ -24,5 +24,6 @@ urlpatterns = [
     url(r'^accounts/', include('accounts.urls')),
     url(r'^logout/$', views.user_logout, name='logout'),
     url(r'^menu/',include('menu.urls')),
+    url(r'^tour/',include('tour.urls')),
 
 ]
