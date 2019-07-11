@@ -1,0 +1,69 @@
+{% extends 'tour/tour_base.html' %}
+{% load staticfiles %}
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/tour_base.css' %}">
+    <title>Unravel Bangladesh</title>
+</head>
+
+{% block title_M %}
+<div id="title" class="slide header">
+<style>
+    #title{
+        background-image: url("https://pix10.agoda.net/geo/city/513022/1_513022_02.jpg?s=1920x822");
+    }
+</style>
+    <h1>Sylhet</h1>
+</div>
+
+{% endblock %}
+
+ {% block slide1 %}
+     <div id="slide1" class="slide">
+    <div class="title">
+        <style>
+            #slide1:before {
+  background-image: url("https://i.ytimg.com/vi/4pDHeF0wzqI/maxresdefault.jpg");
+}
+        </style>
+     <h1>Bichhanakandi</h1>
+     <p>Mesmerizing, Amazing & Fascinating</p>
+    </div>
+     </div>
+{% endblock %}
+
+
+
+ {% block slide2 %}
+
+
+<div id="slide2" class="slide">
+<style>
+     #slide2 {
+    background-image: url("https://compote.slate.com/images/fa85d6c9-233f-4dd9-9783-66d13803965c.jpg") !important;
+}
+     </style>
+    <div class="title">
+        <h1>Ratargul</h1>
+        <p>Soothing experience.</p>
+    </div>
+    <img src="https://assetsds.cdnedge.bluemix.net/sites/default/files/beta2/uploads/2013/08/ct05.jpg">
+    <img src="https://live.staticflickr.com/8172/7943783096_243aa5ff85_b.jpg">
+</div>
+
+{% endblock %}
+
+ {% block slide3 %}
+     <style>
+     #slide3:before {
+    background-image: url("https://thetouristplace.com/wp-content/uploads/2017/05/Sylhet-Jaflong.jpg");
+}
+     </style>
+     <div id="slide3" class="slide">
+    <div class="title">
+     <h1>Jaflong</h1>
+    <p>Ferociously Beautiful</p>
+    </div>
+     </div>
+{% endblock %}
