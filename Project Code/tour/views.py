@@ -8,3 +8,7 @@ def sylhet(request):
 
 def barisal(request):
     return render(request, 'tour/Barisal.html')
+
+
+def rajshahi(request):
+    return render(request,'tour/Rajshahi.html')
