@@ -27,3 +27,22 @@ def chittagong(request):
 
 def dhaka(request):
     return render(request,'tour/Dhaka.html')
+
+
+def syl(request):
+    return render(request, 'tour/syl_log.html')
+
+def dhk(request):
+    return render(request,'tour/dhk_log.html')
+
+def ctg(request):
+    return render(request,'tour/ctg_log.html')
+
+def bar(request):
+    return render(request,'tour/bar_log.html')
+
+def raj(request):
+    return render(request,'tour/raj_log.html')
+
+def khu(request):
+    return render(request,'tour/khu_log.html')

@@ -10,4 +10,12 @@ urlpatterns =[
     url(r'^chittagong/$',views.chittagong,name='chittagong'),
     url(r'^dhaka/$',views.dhaka,name='dhaka'),
 
+    url(r'^syl/$',views.syl,name='syl'),
+    url(r'^khu/$',views.syl,name='khu'),
+    url(r'^bar/$',views.syl,name='bar'),
+    url(r'^raj/$',views.syl,name='raj'),
+    url(r'^dhk/$',views.syl,name='dhk'),
+    url(r'^ctg/$',views.syl,name='ctg'),
+
+
 ]
