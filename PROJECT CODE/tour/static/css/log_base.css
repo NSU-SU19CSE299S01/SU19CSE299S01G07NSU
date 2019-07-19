@@ -1,3 +1,26 @@
-body{
-    
+.header1 {
+    background-color: inherit;
+    position: fixed;
+     background: inherit;
+    text-align: center;
+    letter-spacing: 06px;
+    margin: 0px;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 1px;
+    background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0; !important;
+
+  font-size: 15px; !important;
+    background-image: url("https://pix10.agoda.net/geo/city/513022/1_513022_02.jpg?s=1920x822");
+background-size: cover;
 }
