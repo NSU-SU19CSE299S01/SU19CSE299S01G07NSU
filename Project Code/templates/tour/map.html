@@ -1,10 +1,19 @@
-<!DOCTYPE html>
+<!DOCTYPE html
 <html lang="en">
+{% load staticfiles %}
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/map.css' %}">
+    <title>Unravel Bangladesh</title>
 </head>
 <body>
-
-</body>
-</html>
+<div id="vid">
+<video autoplay muted loop id="myVideo">
+  <source src="{% static 'videos/videoplayback.mp4' %}" type='video/mp4'>
+  Your browser does not support HTML5 video.
+</video>
+</div>
+<div class="header1">
+    <h2 align="center"style="font-family:'Agency FB';font-size: 32px ;margin: 1px"><b>Unravel Bangladesh</b></h2>
+</div>
