@@ -46,3 +46,7 @@ def raj(request):
 
 def khu(request):
     return render(request,'tour/khu_log.html')
+
+
+def map(request):
+    return render(request,'tour/map.html')

@@ -16,6 +16,7 @@ urlpatterns =[
     url(r'^raj/$',views.syl,name='raj'),
     url(r'^dhk/$',views.syl,name='dhk'),
     url(r'^ctg/$',views.syl,name='ctg'),
+    url(r'^map/$',views.map,name='map'),
 
 
 ]
