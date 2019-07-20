@@ -1,3 +1,37 @@
-body{
-    
-}
+html {
+    background: #1a1a1a;
+    color: #e5e5e5;
+    text-align: center;
+    font-family: "Roboto", Helvetica, sans-serif;
+  }
+  
+  body {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 100px;
+    overflow-x: hidden;
+  }
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  
+  }
+  .header1{
+      background-color: inherit;
+      position: center;
+       background: inherit;
+      text-align: center;
+      letter-spacing: 06px;
+      margin: 0px;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 1px;
+      background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  }
+  
