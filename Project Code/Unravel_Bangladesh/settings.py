@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'homepage',
     'menu',
     'tour',
+    'community',
 ]
 
 MIDDLEWARE = [
