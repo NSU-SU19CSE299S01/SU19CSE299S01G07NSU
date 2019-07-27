@@ -4,7 +4,7 @@
 
 <p align ="center"><b>Project Name</b> : Unravel Bangladesh</p>
 
-<p align ="center"><b>Course<./b> : CSE299</p>
+<p align ="center"><b>Course</b> : CSE299</p>
 
 <p align ="center"><b>Section</b> : 01</p>
 
