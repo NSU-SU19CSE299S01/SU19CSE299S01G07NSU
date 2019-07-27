@@ -1,37 +1,41 @@
+<html><body><p align="center">
+  <img width="460" height="300" src="https://elmsprodcdnendpoint.azureedge.net/attachments/15/2bfe67c5-2678-e011-969d-0030487d8897/46f5b6ce-3ea8-47ed-8444-80b87ed980cd.png">
+</p>
 
-**Project Name** : Unravel Bangladesh
+<p align ="center"><b>Project Name</b> : Unravel Bangladesh</p>
 
-**Course** : CSE299
+<p align ="center"><b>Course</b> : CSE299</p>
 
-**Section** : 01
+<p align ="center"><b>Section</b> : 01</p>
 
-**Semester** : Summer 2019
+<p align ="center"><b>Semester</b> : Summer 2019</p>
 
-**Instructor** : Shaikh Shawon Arefin Shimon
+<p align ="center"><b>Instructor</b> : Shaikh Shawon Arefin Shimon</p>
 
-**Group No** - 07
+<p align ="center"><b>Group No</b> - 07</p>
 
-**Members** :
+<p align ="center"><b>Members</b>:</p>
 
-**      Jannatun Naima Shorno**
+<p align ="center"><b>Jannatun Naima Shorno</b></p>
 
-ID- 162-0680-042
+<p align ="center"><b>ID</b>- 162-0680-042</p>
 
-Email- [jannatun.shorno@northsouth.edu](mailto:jannatun.shorno@northsouth.edu)
+<p align ="center"><b>Email</b>- [jannatun.shorno@northsouth.edu](mailto:jannatun.shorno@northsouth.edu)</p>
 
-**      Md.Riftabin Kabir**
+<p align ="center"><b>Md.Riftabin Kabir</b></p>
 
-ID- 162-0324-042
+<p align ="center"><b>ID</b>- 162-0324-042</p>
 
-Email- [riftabin.kabir@northsouth.edu](mailto:riftabin.kabir@northsouth.edu)
+<p align ="center"><b>Email</b>- [riftabin.kabir@northsouth.edu](mailto:riftabin.kabir@northsouth.edu)</p>
 
- **GitHub Repo Link** : https://github.com/Abir12941/SU19CSE299S01G07NSU
+ <p align ="center"><b>GitHub Repo Link</b> : https://github.com/Abir12941/SU19CSE299S01G07NSU</p>
 
-Date Prepared: 14.06.2019
+<p align ="center"><b>Date Prepared</b>: 14.06.2019</p>
+</body>
+</html>
 
 
-
-Project Details:
+**Project Details**:
 
 1.  **Idea** :  The idea is mainly to develop a tourism website for Bangladesh. The website will work like a virtual tour-guide. People will be able to know about the travel details about their desired destinations. The details include - Descriptions, travel route, expense and overall logistics.
 
@@ -50,4 +54,28 @@ Project Details:
 6. 6)Admin-control
 7. 7)User Signup/Sign-in
 
+**Technology** :
+
+1. Back-End:
+  1. Django-framework
+  2. Python
+  3. Sqlite3
+2. Front-End:
+  1. HTML
+  2. CSS/SASS/BOOTSTRAP
+  3. JavaScript
+3. Deployment:  Local (initially)
+4. IDE: Pycharm
+
+**Business Plan:**
+
+Although the project is solely a non-profitable effort towards the representation of our country, still there are some revenue generating process in it.
+
+There will be booking (ticket/hotels) system through the website which will allow the flow of revenue through the website. However, we, the developers will not be taking any part of it.
+
+**Payment Methods** :
+
+We will be using Bkash, Credit/Debit Cards as our basic payment methods for any kind of transactions.
+
+**N.B** : Final outcome may include some more features or design upgrade.
 
