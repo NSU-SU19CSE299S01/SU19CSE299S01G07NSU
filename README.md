@@ -1,35 +1,36 @@
 <p align="center">
   <img width="460" height="300" src="https://elmsprodcdnendpoint.azureedge.net/attachments/15/2bfe67c5-2678-e011-969d-0030487d8897/46f5b6ce-3ea8-47ed-8444-80b87ed980cd.png">
 </p>
-**Project Name** : Unravel Bangladesh
 
-**Course** : CSE299
+<p align ="center"><b>Project Name</b> : Unravel Bangladesh</p>
 
-**Section** : 01
+<p align ="center"><b>Course<./b> : CSE299</p>
 
-**Semester** : Summer 2019
+<p align ="center"><b>Section</b> : 01</p>
 
-**Instructor** : Shaikh Shawon Arefin Shimon
+<p align ="center"><b>Semester</b> : Summer 2019</p>
 
-**Group No** - 07
+<p align ="center"><b>Instructor</b> : Shaikh Shawon Arefin Shimon</p>
 
-**Members** :
+<p align ="center"><b>Group No</b> - 07</p>
 
-**      Jannatun Naima Shorno**
+<p align ="center"><b>Members</b>:</p>
 
-ID- 162-0680-042
+<p align ="center"><b>Jannatun Naima Shorno</b></p>
 
-Email- [jannatun.shorno@northsouth.edu](mailto:jannatun.shorno@northsouth.edu)
+<p align ="center"><b>ID</b>- 162-0680-042</p>
 
-**      Md.Riftabin Kabir**
+<p align ="center"><b>Email</b>- [jannatun.shorno@northsouth.edu](mailto:jannatun.shorno@northsouth.edu)</p>
 
-ID- 162-0324-042
+<p align ="center"><b>Md.Riftabin Kabir</b></p>
 
-Email- [riftabin.kabir@northsouth.edu](mailto:riftabin.kabir@northsouth.edu)
+<p align ="center"><b>ID</b>- 162-0324-042</p>
 
- **GitHub Repo Link** : https://github.com/Abir12941/SU19CSE299S01G07NSU
+<p align ="center"><b>Email</b>- [riftabin.kabir@northsouth.edu](mailto:riftabin.kabir@northsouth.edu)</p>
 
-Date Prepared: 14.06.2019
+ <p align ="center"><b>GitHub Repo Link</b> : https://github.com/Abir12941/SU19CSE299S01G07NSU</p>
+
+<p align ="center"><b>Date Prepared</b>: 14.06.2019</p>
 
 
 
