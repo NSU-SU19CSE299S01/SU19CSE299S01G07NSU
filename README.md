@@ -1,4 +1,4 @@
-<p align="center">
+<html><body><p align="center">
   <img width="460" height="300" src="https://elmsprodcdnendpoint.azureedge.net/attachments/15/2bfe67c5-2678-e011-969d-0030487d8897/46f5b6ce-3ea8-47ed-8444-80b87ed980cd.png">
 </p>
 
@@ -31,7 +31,8 @@
  <p align ="center"><b>GitHub Repo Link</b> : https://github.com/Abir12941/SU19CSE299S01G07NSU</p>
 
 <p align ="center"><b>Date Prepared</b>: 14.06.2019</p>
-
+</body>
+</html>
 
 
 **Project Details**:
