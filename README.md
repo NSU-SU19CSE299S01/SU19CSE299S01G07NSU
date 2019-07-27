@@ -31,7 +31,7 @@ Date Prepared: 14.06.2019
 
 
 
-Project Details:
+**Project Details**:
 
 1.  **Idea** :  The idea is mainly to develop a tourism website for Bangladesh. The website will work like a virtual tour-guide. People will be able to know about the travel details about their desired destinations. The details include - Descriptions, travel route, expense and overall logistics.
 
@@ -50,4 +50,28 @@ Project Details:
 6. 6)Admin-control
 7. 7)User Signup/Sign-in
 
+**Technology** :
+
+1. Back-End:
+  1. Django-framework
+  2. Python
+  3. Sqlite3
+2. Front-End:
+  1. HTML
+  2. CSS/SASS/BOOTSTRAP
+  3. JavaScript
+3. Deployment:  Local (initially)
+4. IDE: Pycharm
+
+**Business Plan:**
+
+Although the project is solely a non-profitable effort towards the representation of our country, still there are some revenue generating process in it.
+
+There will be booking (ticket/hotels) system through the website which will allow the flow of revenue through the website. However, we, the developers will not be taking any part of it.
+
+**Payment Methods** :
+
+We will be using Bkash, Credit/Debit Cards as our basic payment methods for any kind of transactions.
+
+**N.B** : Final outcome may include some more features or design upgrade.
 
