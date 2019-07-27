@@ -33,6 +33,33 @@
             padding-top: 10px;
         }
     </style>
+  
+          <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg nav " id="mainNav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{% url 'homepage:index' %}" style="color: aliceblue">Unravel Bangladesh</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item text-black">
+                            <a class="nav-link text-black font-weight-bold" href="{% url 'menu:menu' %}" style="color: aliceblue">Destinations</a>
+                        </li>
+                        <li class="nav-item text-black">
+                            <a class="nav-link text-black font-weight-bold" href="{% url 'tour:map' %}" style="color: aliceblue">Map</a>
+                        </li>
+                        <li class="nav-item text-black">
+                            <a class="nav-link text-black font-weight-bold" href="http://127.0.0.1:8000/admin/community/post/" style="color: aliceblue">Post</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        {% block content %}
+        {% endblock content %}
+
 
 </body>
 </html>
