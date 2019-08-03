@@ -1,10 +1,43 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Reservations</title>
+     <link rel="stylesheet" href="{% static 'css/hotel.css' %}">
 </head>
 <body>
+<div class="wrapper">
+  <div class="cards">
+    <div class="card">
+      <div class="card__img">
+          <picture>
+            <source media="(max-width: 320px)"
+                    srcset="https://i.ytimg.com/vi/pGAW53i59HQ/hqdefault.jpg">
+            <source media="(min-width: 538px)"
+                    srcset="https://i.ytimg.com/vi/pGAW53i59HQ/hqdefault.jpg">
+            <img src="https://i.ytimg.com/vi/pGAW53i59HQ/hqdefault.jpg">
+          </picture>
+      </div>
+      <div class="card__details">
+        <h3 for="cozyroom">Sylhet</h3>
+        <div class="address">Wonderful staying experiences with nice hospitality</div>
+        <div class="price">
+          <div class="star">
+            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+          </div>
+          <div class="price__l">
+            <span class="price__label">3000-6000 BDT</span>
+            <span class="measure__label">on average</span>
+          </div>
+        </div>
+        <button>Detail</button>
+      </div>
+    </div>
 
 </body>
 </html>
