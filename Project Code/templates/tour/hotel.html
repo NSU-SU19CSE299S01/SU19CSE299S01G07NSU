@@ -1,0 +1,201 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservations</title>
+     <link rel="stylesheet" href="{% static 'css/hotel.css' %}">
+</head>
+<body>
+<div class="wrapper">
+  <div class="cards">
+    <div class="card">
+      <div class="card__img">
+          <picture>
+            <source media="(max-width: 320px)"
+                    srcset="https://i.ytimg.com/vi/pGAW53i59HQ/hqdefault.jpg">
+            <source media="(min-width: 538px)"
+                    srcset="https://i.ytimg.com/vi/pGAW53i59HQ/hqdefault.jpg">
+            <img src="https://i.ytimg.com/vi/pGAW53i59HQ/hqdefault.jpg">
+          </picture>
+      </div>
+      <div class="card__details">
+        <h3 for="cozyroom">Sylhet</h3>
+        <div class="address">Wonderful staying experiences with nice hospitality</div>
+        <div class="price">
+          <div class="star">
+            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+          </div>
+          <div class="price__l">
+            <span class="price__label">3000-6000 BDT</span>
+            <span class="measure__label">on average</span>
+          </div>
+        </div>
+        <button>Detail</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card__img">
+          <picture>
+            <source media="(max-width: 400px)"
+                    srcset="https://media-cdn.tripadvisor.com/media/photo-s/12/a4/c6/e3/hotel-graver-inn-international.jpg">
+
+            <source media="(min-width: 481px)"
+                    srcset="https://media-cdn.tripadvisor.com/media/photo-s/12/a4/c6/e3/hotel-graver-inn-international.jpg">
+
+
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/12/a4/c6/e3/hotel-graver-inn-international.jpg">
+          </picture>
+      </div>
+      <div class="card__details">
+        <h3 for="tomato">Barisal</h3>
+        <div class="address">Nice staying facilities with afforable prices</div>
+        <div class="price">
+          <div class="star">
+            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+          </div>
+          <div class="price__l">
+            <span class="price__label">2500-5000 BDT</span>
+            <span class="measure__label">on average</span>
+          </div>
+        </div>
+        <button>Detail</button>
+      </div>
+    </div>
+       <div class="card">
+        <div class="card__img">
+            <picture>
+              <source media="(max-width: 400px)"
+                      srcset="http://thebangladeshtravel.com/wp-content/uploads/2016/10/movenpick-650x336.jpg">
+
+              <source media="(min-width: 481px)"
+                      srcset="http://thebangladeshtravel.com/wp-content/uploads/2016/10/movenpick-650x336.jpg">
+
+              <img src="http://thebangladeshtravel.com/wp-content/uploads/2016/10/movenpick-650x336.jpg">
+            </picture>
+        </div>
+        <div class="card__details">
+          <h3 for="cozyroom">Khulna</h3>
+          <div class="address">Hotels with feel good vibes</div>
+
+          <div class="price">
+            <div class="star">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+            </div>
+            <div class="price__l">
+              <span class="price__label">3000-6000 BDT</span>
+              <span class="measure__label">on average</span>
+            </div>
+          </div>
+          <button>Detail</button>
+        </div>
+    </div>
+      
+    <div class="card">
+        <div class="card__img">
+            <picture>
+              <source media="(max-width: 320px)"
+                      srcset="http://4.bp.blogspot.com/-gi_aHos_u0s/VfiGrhjUolI/AAAAAAAAFbo/vDW9vzghhE4/s1600/Top%2Bhotels%2Bin%2BRajshahi.jpg">
+
+              <source media="(max-width: 500px)"
+                      srcset="http://4.bp.blogspot.com/-gi_aHos_u0s/VfiGrhjUolI/AAAAAAAAFbo/vDW9vzghhE4/s1600/Top%2Bhotels%2Bin%2BRajshahi.jpg">
+
+              <img src="http://4.bp.blogspot.com/-gi_aHos_u0s/VfiGrhjUolI/AAAAAAAAFbo/vDW9vzghhE4/s1600/Top%2Bhotels%2Bin%2BRajshahi.jpg">
+            </picture>
+        </div>
+        <div class="card__details">
+          <h3 for="cozyroom">Rajshahi</h3>
+          <div class="address">Cozy and affordable</div>
+
+          <div class="price">
+            <div class="star">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+            </div>
+            <div class="price__l">
+              <span class="price__label">2000-5000 BDT</span>
+              <span class="measure__label">on average</span>
+            </div>
+          </div>
+          <button>Detail</button>
+        </div>
+    </div>
+       <div class="card">
+        <div class="card__img">
+            <picture>
+              <source media="(max-width: 320px)"
+                      srcset="https://www.flightexpert.com/blog/wp-content/uploads/2017/11/Hotels-in-Chittagong-e1511588907545.jpg">
+
+              <source media="(max-width: 500px)"
+                      srcset="https://www.flightexpert.com/blog/wp-content/uploads/2017/11/Hotels-in-Chittagong-e1511588907545.jpg">
+
+              <img src="https://www.flightexpert.com/blog/wp-content/uploads/2017/11/Hotels-in-Chittagong-e1511588907545.jpg">
+            </picture>
+        </div>
+        <div class="card__details">
+          <h3 for="cozyroom">Chittagong</h3>
+          <div class="address">Extraordinary living experiences</div>
+
+          <div class="price">
+            <div class="star">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+            </div>
+            <div class="price__l">
+              <span class="price__label">3500-7000 BDT</span>
+              <span class="measure__label">on average</span>
+            </div>
+          </div>
+          <button>Detail</button>
+        </div>
+    </div>
+       <div class="card">
+        <div class="card__img">
+            <picture>
+              <source media="(max-width: 320px)"
+                      srcset="https://t-ec.bstatic.com/xdata/images/hotel/max500/172244719.jpg?k=2a2adbd509059d49e21e0fac184cb99d899429e7aeb049873084f4472afa119e&o=">
+
+              <source media="(max-width: 500px)"
+                      srcset="https://t-ec.bstatic.com/xdata/images/hotel/max500/172244719.jpg?k=2a2adbd509059d49e21e0fac184cb99d899429e7aeb049873084f4472afa119e&o=">
+
+              <img src="https://t-ec.bstatic.com/xdata/images/hotel/max500/172244719.jpg?k=2a2adbd509059d49e21e0fac184cb99d899429e7aeb049873084f4472afa119e&o=">
+            </picture>
+        </div>
+        <div class="card__details">
+          <h3 for="cozyroom">Dhaka</h3>
+          <div class="address">State of the art hotels</div>
+
+          <div class="price">
+            <div class="star">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+              <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+                <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="">
+            </div>
+            <div class="price__l">
+              <span class="price__label">3500-8000 BDT</span>
+              <span class="measure__label">on average</span>
+            </div>
+          </div>
+          <button>Detail</button>
+        </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
