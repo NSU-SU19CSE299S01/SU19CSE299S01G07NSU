@@ -91,3 +91,95 @@ ul {
   font-size: 10px;
   text-align: right;
 }
+
+@media (max-width: 347px) {
+  .cards .card__details .price {
+    align-items: baseline;
+  }
+  .cards .card__details .price .price__l {
+    font-size: 12px;
+  }
+}
+@media (min-width: 425px) {
+  .top__header .icon__menu .menu__mobile {
+    display: none;
+  }
+  .top__header .icon__menu .menu__desktop {
+    display: block;
+  }
+  .top__header .icon__menu .menu__desktop ul.desktop__menu li {
+    cursor: pointer;
+    margin: 0 1rem;
+    padding: 2px 10px;
+  }
+  .top__header .icon__menu .menu__desktop ul.desktop__menu li.promo {
+    background: #D7493A;
+    border-radius: 5px;
+  }
+  .top__header .icon__menu .menu__desktop ul.desktop__menu li.promo:hover {
+    background: #b93425;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cards .card {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cards .card__details {
+    top: 0;
+    align-items: flex-start;
+    align-content: center;
+    grid-gap: 10px;
+  }
+  .cards .card__details .price {
+    grid-template-columns: auto 1fr;
+    font-size: 15px;
+  }
+  .cards .card__details .address {
+    margin-top: -7px;
+  }
+  .cards .card .credit-img {
+    padding: 15px 25px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .cards .card {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cards .card__details {
+    top: 0;
+    align-items: flex-start;
+    align-content: center;
+    grid-gap: 10px;
+  }
+  .cards .card__details .price {
+    grid-template-columns: auto 1fr;
+    font-size: 15px;
+  }
+  .cards .card__details .address {
+    margin-top: -7px;
+  }
+  .cards .card .credit-img {
+    padding: 15px 25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cards .credit-img {
+    font-size: 8px !important;
+  }
+}
+@media (min-width: 1025px) {
+  .wrapper {
+    width: 960px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  .wrapper .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .wrapper .cards .card__details h3 {
+    font-size: 18px;
+  }
+}
