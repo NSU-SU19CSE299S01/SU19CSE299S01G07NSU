@@ -50,3 +50,6 @@ def khu(request):
 
 def map(request):
     return render(request,'tour/map.html')
+
+def hotel(request):
+    return render(request,'tour/hotel.html')
