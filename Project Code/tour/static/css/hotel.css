@@ -13,3 +13,81 @@ ul {
   display: flex;
   justify-content: flex-end;
 }
+
+.cards {
+  margin-top: 1rem;
+  padding: 10px;
+  display: grid;
+  grid-gap: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.cards .card {
+  position: relative;
+  max-height: 340px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
+}
+.cards .card__img {
+  max-height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cards .card__details {
+  position: relative;
+  top: -36px;
+  width: 90%;
+  padding: 10px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(3, 6, 31, 0.15);
+  display: grid;
+  grid-gap: 5px;
+}
+.cards .card__details h3 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.cards .card__details .address {
+  color: #777777;
+  font-size: 12px;
+}
+.cards .card__details .price {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cards .card__details .price .price__l {
+  width: 100%;
+  text-align: right;
+}
+.cards .card__details .price .price__l .price__label {
+  font-weight: 600;
+  text-align: right;
+}
+.cards .card__details .price .star img {
+  width: 14px;
+}
+.cards .card__details button {
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background: #51D6FB;
+  color: #FFFFFF;
+}
+.cards .card__details button:focus {
+  outline: none;
+}
+.cards .card .credit-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  font-size: 10px;
+  text-align: right;
+}
