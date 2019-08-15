@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'homepage',
     'menu',
     'tour',
+    'accounts',
     'community',
     'crispy_forms',
 ]
