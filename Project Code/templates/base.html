@@ -16,7 +16,7 @@
       <div class="container">
         <ul class="nav navbar-nav">
 {# Django Home Link / Admin Link / Register Link#}
-          <li><a class="navbar-brand" href="{% url 'index' %}">Home</a></li>
+          <li><a class="navbar-brand" href="{% url 'homepage:index' %}">Home</a></li>
           <li><a class="navbar-link" href="{% url 'admin:index' %}">Admin</a></li>
           <li><a class="navbar-link" href="{% url 'accounts:register' %}">Register</a></li>
           {# Some logic on what to display for last item#}
