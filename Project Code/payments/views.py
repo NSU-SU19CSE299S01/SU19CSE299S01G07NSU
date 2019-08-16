@@ -23,3 +23,22 @@ class CrispyAddressFormView(FormView):
     success_url = reverse_lazy('success')
     template_name = 'payments/crispy_form.html'
 
+
+class CustomFieldFormView(FormView):
+    form_class = CustomFieldForm
+    success_url = reverse_lazy('success')
+    template_name = 'payments/crispy_form.html'
+
+
+class SuccessView(TemplateView):
+    template_name = 'payments/success.html'
+
+def charge(request):
+    if request.method == 'POST':
+        charge = stripe.Charge.create(
+            amount=500,
+            currency='usd',
+            description='A Django charge',
+            source=request.POST['stripeToken']
+        )
+        return render(request, 'payments/charge.html')
