@@ -24,3 +24,24 @@ class AddressForm(forms.Form):
     TrxID = forms.CharField(label='BKash-01920101801',widget=forms.TextInput(attrs={'placeholder': 'TrxID'}))
     check_me_out = forms.BooleanField(required=False)
 
+class CrispyAddressForm(AddressForm):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.helper = FormHelper()
+        self.helper.layout = Layout(
+            Row(
+                Column('email', css_class='form-group col-md-6 mb-0'),
+                Column('password', css_class='form-group col-md-6 mb-0'),
+                css_class='form-row'
+            ),
+            'address_1',
+            'address_2',
+            Row(
+                Column('Amount', css_class='form-group col-md-6 mb-0'),
+                Column('state', css_class='form-group col-md-4 mb-0'),
+                Column('TrxID', css_class='form-group col-md-2 mb-0'),
+                css_class='form-row'
+            ),
+            'check_me_out',
+            Submit('submit', 'Donate')
+        )
