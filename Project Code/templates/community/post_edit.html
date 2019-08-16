@@ -1,0 +1,14 @@
+{% extends "community/base2.html" %}
+{% block content %}
+    {% if user.is_authenticated %}
+    <h2>New post</h2>
+    <form method="POST" class="post-form" id="form">
+        {% csrf_token %}
+        <p>{{ form.as_p }}</p>
+        <button type="submit" class="save btn btn-success">Post</button>
+    </form>
+    {% else %}
+        <h1 style="margin-top: 50px">You have to be logged in to post in the community.</h1>
+
+    {% endif %}
+{% endblock %}
