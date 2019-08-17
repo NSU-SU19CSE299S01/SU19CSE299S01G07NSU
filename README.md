@@ -35,7 +35,7 @@
 </html>
 
 
-<b><u>Project Details</u></b>:
+<p><b><u>Project Details</u></b></p>:
 
 1.  **Idea** :  The idea was mainly to develop a tourism website for Bangladesh. The website works like a virtual tour-guide. People will be able to know about the travel details about their desired destinations. The details include - Descriptions, travel route, expense and overall logistics.
 
@@ -46,13 +46,13 @@
 
 **Features** :
 
-1. Feeds of most visited tourist sites in our country.
-2. Community of Users
-3. Ticket Booking
-4. Travel Scheduling
-5. Reviews
-6. Admin-control
-7. User Signup/Sign-in
+1. Feeds of most visited tourist sites in our country--> This is the core feature where tourists will be able to see the details and logistics.
+2. Community of Users--> Here users can create and read posts about various tour places and share their tour experiences.
+3. Booking-->With this feature users can book their preferable hotels in their desired destination.
+4. Map --> A map is included in the website to enable the users to easily identify the location of our country.
+5. Donations - User will be able to make donations through our website. The donations will be then given to provide healthcare to the people living below the poverty line.
+6. Admin-control--> The primary admin has all the access but he/she can assign other users based on their contributions to the community, as moderator or core panel admin too.
+7. User Signup/Sign-in-->There is a sign in/sign up feature to authenticate users before  posting in the community.
 
 **Technology** :
 
@@ -71,11 +71,11 @@
 
 Although the project is solely a non-profitable effort towards the representation of our country, still there are some revenue generating process in it.
 
-There will be booking (ticket/hotels) system through the website which will allow the flow of revenue through the website. However, we, the developers will not be taking any part of it.
+There will be booking (hotels) system through the website which will allow the flow of revenue through the website. However, we, the developers will be taking only 10% of the cost of the booking going through our website.
 
 **Payment Methods** :
 
-We will be using Bkash, Credit/Debit Cards as our basic payment methods for any kind of transactions.
+We will be using Bkash, Credit/Debit Cards as our basic payment methods for any kind of transactions. We used "Stripe checkout" system to manage the transaction done with cards.
 
-**N.B** : Final outcome may include some more features or design upgrade.
+
 
