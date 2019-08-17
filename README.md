@@ -35,7 +35,7 @@
 </html>
 
 
-**<u>Project Details</u>**:
+<b><u>Project Details</u></b>:
 
 1.  **Idea** :  The idea was mainly to develop a tourism website for Bangladesh. The website works like a virtual tour-guide. People will be able to know about the travel details about their desired destinations. The details include - Descriptions, travel route, expense and overall logistics.
 
