@@ -20,13 +20,13 @@
 
 <p align ="center"><b>ID</b>- 162-0680-042</p>
 
-<p align ="center"><b>Email</b>- [jannatun.shorno@northsouth.edu](mailto:jannatun.shorno@northsouth.edu)</p>
+<p align ="center"><b>Email</b>- [jannatun.shorno@northsouth.edu]</p>
 
 <p align ="center"><b>Md.Riftabin Kabir</b></p>
 
 <p align ="center"><b>ID</b>- 162-0324-042</p>
 
-<p align ="center"><b>Email</b>- [riftabin.kabir@northsouth.edu](mailto:riftabin.kabir@northsouth.edu)</p>
+<p align ="center"><b>Email</b>- [riftabin.kabir@northsouth.edu]</p>
 
  <p align ="center"><b>GitHub Repo Link</b> : https://github.com/Abir12941/SU19CSE299S01G07NSU</p>
 
@@ -46,24 +46,24 @@
 
 **Features** :
 
-1. 1)Feeds of most visited tourist sites in our country.
-2. 2)Community of Users
-3. 3)Ticket Booking
-4. 4)Travel Scheduling
-5. 5)Reviews
-6. 6)Admin-control
-7. 7)User Signup/Sign-in
+1. Feeds of most visited tourist sites in our country.
+2. Community of Users
+3. Ticket Booking
+4. Travel Scheduling
+5. Reviews
+6. Admin-control
+7. User Signup/Sign-in
 
 **Technology** :
 
 1. Back-End:
-  1. Django-framework
-  2. Python
-  3. Sqlite3
+  * Django-framework
+  * Python
+  * Sqlite3
 2. Front-End:
-  1. HTML
-  2. CSS/SASS/BOOTSTRAP
-  3. JavaScript
+  * HTML
+  * CSS/SASS/BOOTSTRAP
+  * JavaScript
 3. Deployment:  Local (initially)
 4. IDE: Pycharm
 
