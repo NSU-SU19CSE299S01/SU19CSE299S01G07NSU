@@ -35,7 +35,7 @@
 </html>
 
 
-<p><b><u>Project Details</u></b></p>:
+**Project Details**:
 
 1.  **Idea** :  The idea was mainly to develop a tourism website for Bangladesh. The website works like a virtual tour-guide. People will be able to know about the travel details about their desired destinations. The details include - Descriptions, travel route, expense and overall logistics.
 
@@ -46,9 +46,9 @@
 
 **Features** :
 
-1. Feeds of most visited tourist sites in our country--> This is the core feature where tourists will be able to see the details and logistics.
+1. Feeds of most visited tourist sites in our country--> This is the core feature where tourists will be able to see the details and logistics. This is the divisional pages of the website.
 2. Community of Users--> Here users can create and read posts about various tour places and share their tour experiences.
-3. Booking-->With this feature users can book their preferable hotels in their desired destination.
+3. Booking-->With this feature users can book their preferable hotels in their desired destination. This falls under the reservation process feature.
 4. Map --> A map is included in the website to enable the users to easily identify the location of our country.
 5. Donations - User will be able to make donations through our website. The donations will be then given to provide healthcare to the people living below the poverty line.
 6. Admin-control--> The primary admin has all the access but he/she can assign other users based on their contributions to the community, as moderator or core panel admin too.
@@ -72,6 +72,8 @@
 Although the project is solely a non-profitable effort towards the representation of our country, still there are some revenue generating process in it.
 
 There will be booking (hotels) system through the website which will allow the flow of revenue through the website. However, we, the developers will be taking only 10% of the cost of the booking going through our website.
+
+We will be offering parnership with booking sites to make booking deals via our website. Thus it will help us earn per booking through Unravel Bangladesh.
 
 **Payment Methods** :
 
