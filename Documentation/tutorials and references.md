@@ -7,3 +7,8 @@
 2. Back-end -
 ..*[Udemy Web Development Course](https://www.udemy.com/python-and-django-full-stack-web-developer-bootcamp/)
 
+3. Payment Gateway-
+..*[Stripe-Checkout](https://testdriven.io/blog/django-stripe-tutorial/)
+
+
+
