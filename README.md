@@ -30,18 +30,18 @@
 
  <p align ="center"><b>GitHub Repo Link</b> : https://github.com/Abir12941/SU19CSE299S01G07NSU</p>
 
-<p align ="center"><b>Date Prepared</b>: 14.06.2019</p>
+<p align ="center"><b>Date Prepared</b>: 18.08.2019</p>
 </body>
 </html>
 
 
-**Project Details**:
+**<u>Project Details</u>**:
 
-1.  **Idea** :  The idea is mainly to develop a tourism website for Bangladesh. The website will work like a virtual tour-guide. People will be able to know about the travel details about their desired destinations. The details include - Descriptions, travel route, expense and overall logistics.
+1.  **Idea** :  The idea was mainly to develop a tourism website for Bangladesh. The website works like a virtual tour-guide. People will be able to know about the travel details about their desired destinations. The details include - Descriptions, travel route, expense and overall logistics.
 
-1.  **Goal** : The website is focused on being the first ever purely tourism-based website for Bangladesh. There is no specific website for a traveler to hit when it comes to tour in our country. Moreover, a foreigner may find it difficult to gain the necessary information about our country&#39;s tourism situation or travel logistics. So, we want the website to be the savior when it comes to make a tour in our country without any hassle or any complications.
+1.  **Goal** : The website is focused on being the first ever purely tourism-based website for Bangladesh. There is no specific website for a traveler to hit when it comes to tour in our country. Moreover, a foreigner may find it difficult to gain the necessary information about our country&#39;s tourism situation or travel logistics. So, we wanted the website to be the savior when it comes to make a tour in our country without any hassle or any complications.
 
-1.  **Strategy** : The website will have all the information about the most visited places in Bangladesh. A user can see every bit of details of their desired place including travel route, expenses, tour strategy, precautions, travel scheduling, ticket booking etc. Thus they don&#39;t need to search in anywhere else for any details before making the tour.
+1.  **Strategy** : The website has all the information about the most visited places in Bangladesh. A user can see every bit of details of their desired place including travel route, expenses, tour strategy, precautions, travel scheduling, ticket booking etc. Thus they don&#39;t need to search in anywhere else for any details before making the tour.
 
 
 **Features** :
