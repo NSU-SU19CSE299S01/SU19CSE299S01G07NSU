@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'accounts',
     'community',
     'crispy_forms',
+    'payments',
 ]
 CRISPY_TEMPLATE_PACK = 'bootstrap4' 
 MIDDLEWARE = [
