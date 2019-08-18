@@ -11,11 +11,11 @@ urlpatterns =[
     url(r'^dhaka/$',views.dhaka,name='dhaka'),
 
     url(r'^syl/$',views.syl,name='syl'),
-    url(r'^khu/$',views.syl,name='khu'),
-    url(r'^bar/$',views.syl,name='bar'),
-    url(r'^raj/$',views.syl,name='raj'),
-    url(r'^dhk/$',views.syl,name='dhk'),
-    url(r'^ctg/$',views.syl,name='ctg'),
+    url(r'^khu/$',views.khu,name='khu'),
+    url(r'^bar/$',views.bar,name='bar'),
+    url(r'^raj/$',views.raj,name='raj'),
+    url(r'^dhk/$',views.dhk,name='dhk'),
+    url(r'^ctg/$',views.ctg,name='ctg'),
     url(r'^map/$',views.map,name='map'),
     url(r'^hotel/$',views.hotel,name='hotel'),
 
