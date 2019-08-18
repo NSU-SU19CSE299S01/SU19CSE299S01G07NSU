@@ -135,3 +135,6 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
+
+STRIPE_SECRET_KEY = 'sk_test_IEDhe197hOGzKLPMyJlDfsWc00FE3UjdXZ'
+STRIPE_PUBLISHABLE_KEY = 'pk_test_NQU6SGne93dXugCNTXXFaxQa00US6jsFyu'
