@@ -30,7 +30,7 @@
 
  <p align ="center"><b>GitHub Repo Link</b> : https://github.com/Abir12941/SU19CSE299S01G07NSU</p>
 
-<p align ="center"><b>Date Prepared</b>: 18.08.2019</p>
+<p align ="center"><b>Date Prepared</b>: 25.08.2019</p>
 </body>
 </html>
 
