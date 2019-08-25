@@ -44,15 +44,17 @@
 1.  **Strategy** : The website has all the information about the most visited places in Bangladesh. A user can see every bit of details of their desired place including travel route, expenses, tour strategy, precautions, travel scheduling, ticket booking etc. Thus they don&#39;t need to search in anywhere else for any details before making the tour.
 
 
-**Features** :
-
-1. Feeds of most visited tourist sites in our country--> This is the core feature where tourists will be able to see the details and logistics. This is the divisional pages of the website.
-2. Community of Users--> Here users can create and read posts about various tour places and share their tour experiences.
-3. Booking-->With this feature users can book their preferable hotels in their desired destination. This falls under the reservation process feature.
-4. Map --> A map is included in the website to enable the users to easily identify the location of our country.
-5. Donations - User will be able to make donations through our website. The donations will be then given to provide healthcare to the people living below the poverty line.
-6. Admin-control--> The primary admin has all the access but he/she can assign other users based on their contributions to the community, as moderator or core panel admin too.
-7. User Signup/Sign-in-->There is a sign in/sign up feature to authenticate users before  posting in the community.
+**Features & Details** :
+1. Homepage --> At the very outset, the website welcomes the user with a nice and sooting homepage. From here the user will be able to navigate into the next pages.
+![homepage](https://user-images.githubusercontent.com/26319280/63650785-59e5ae80-c770-11e9-9eb3-0d70dbf7ec0d.PNG)
+The homepage includes a Button called " Discover the Magic" which takes the user to the menu page afterwards. There is also a user id on top right and donate button on top left.
+2. Feeds of most visited tourist sites in our country--> This is the core feature where tourists will be able to see the details and logistics. This is the divisional pages of the website.
+3. Community of Users--> Here users can create and read posts about various tour places and share their tour experiences.
+4. Booking-->With this feature users can book their preferable hotels in their desired destination. This falls under the reservation process feature.
+5. Map --> A map is included in the website to enable the users to easily identify the location of our country.
+6. Donations - User will be able to make donations through our website. The donations will be then given to provide healthcare to the people living below the poverty line.
+7. Admin-control--> The primary admin has all the access but he/she can assign other users based on their contributions to the community, as moderator or core panel admin too.
+8. User Signup/Sign-in-->There is a sign in/sign up feature to authenticate users before  posting in the community.
 
 **Technology** :
 
@@ -66,6 +68,7 @@
   * JavaScript
 3. Deployment:  Local (initially)
 4. IDE: Pycharm
+5. Github Desktop
 
 **Business Plan:**
 
